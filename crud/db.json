@@ -1,0 +1,11 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Book 1",
+      "author": "Author 1",
+      "year": "2024",
+      "cover": "https://cdn11.dienmaycholon.vn/filewebdmclnew/public/userupload/files/Image%20FP_2024/avatar-cute-54.png"
+    }
+  ]
+}
