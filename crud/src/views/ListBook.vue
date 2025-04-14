@@ -46,6 +46,7 @@ const deleteBook = async (id) => {
 };
 </script>
 <template>
+  <RouterLink to="/book/add" class="btn btn-primary">Thêm sách</RouterLink>
   <h1>Danh sách Sách</h1>
   <table class="table-primary">
     <thead>
@@ -69,6 +70,10 @@ const deleteBook = async (id) => {
           <button type="button" @click="deleteBook(book.id)" class="btn btn-danger">
             Xóa
           </button>
+          <RouterLink :to="`/book/detil/${book.id}`" 
+            class="btn btn-info">Chi tiết</RouterLink>
+            <RouterLink :to="`/book/edit/${book.id}`" 
+            class="btn btn-warning">Sửa</RouterLink>
         </td>
       </tr>
     </tbody>
